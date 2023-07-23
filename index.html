@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vikasoo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="site__container">
+            <!-- DAY-1 -->
+            <!-- header -->
+            <header>
+                <!-- Navbar -->
+                <div></div>
+                <nav>
+                    <a href="#" class="nav__tag">Home</a>
+                    <a href="#about_page" class="nav__tag">About</a>
+                    <a href="#skills_page" class="nav__tag">Skills</a>
+                    <a href="#project_page" class="nav__tag">Projects</a>
+                    <a href="#contact_page" class="nav__tag btn-primary nav_btn">Contact</a>
+                </nav>
+                <!-- cross icon -->
+                <div class="mode__btn">
+                    <!-- dark and white src change kr denge js se  -->
+                    <img onclick="changeMode()" id="toggle_image"
+                        src="moon.png" alt>
+                </div>
+
+            </header>
+            <!-- DAY-2 Home Page-->
+            <div class="container home__container">
+                <div class="home__left">
+                    <h4>Hello I'm</h4>
+                    <h1><i>V</i>IKAS <i>C</i>HAUDHARI</h1>
+
+                    <h4>Web Developer</h4>
+
+                    <div class="social_media_links">
+                        <a target="_blank"
+                            href="https://github.com/vikas0873" target="_blank">
+                            <img src="github.png" alt></a>
+
+                        <a target="_blank"
+                            href="https://leetcode.com/Vikas_-1/"
+                            target="_blank">
+                            <img src="leetcode.png" alt></a>
+
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/vikas-chaudhari-181449234/">
+                            <img src="linkedin.png" alt></a>
+                    </div>
+
+                    <div class="home__buttons">
+                        <a href="resume.pdf" download
+                            class="btn btn-primary">Resume</a>
+                        <!--Download Resume-->
+                    </div>
+                </div>
+                <div class="home__right">
+                    <img src="me.jpg" alt>
+                </div>
+            </div>
+            <hr id="separator" class="separator separator--line" />
+
+            <!-- DAY 3 -->
+            <section id="about_page">
+                <h1>ABOUT ME</h1>
+                <div class="container about__container">
+                    <div class="top_about">
+                        <div class="about__me__img">
+                            <img src="PassPort.png" alt>
+                        </div>
+                        <div class="about__me__info">
+                            <p id="para1">Hello! My <b>name is Vikas</b> and I
+                                enjoy creating things that live on the
+                                internet. My interest in web development <b>started
+                                    back in 2022</b> when i decided to try
+                                creating my own animations with CSS and HTML.
+                                And I felt deep interested in it and pursue as
+                                a developer.
+                            </p>
+                            <p id="para2">
+                                I also recently created a <b>weather App, tic
+                                    tac toe game and portfolio site</b> and many
+                                other projects using technologies such as HTML,
+                                CSS & JavaScript, And also learning
+                                <b>React</b> to
+                                Up-skill my <b>front-end development</b>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- DAY 4 skills page -->
+
+            <section id="skills_page">
+                <h1>Skills</h1>
+
+                <div class="skill__container">
+
+                    <!-- for Frontend skills-->
+
+                    <div class="skills Frontend">
+                        <h3>Frontend</h3>
+                        <div class="skill_content">
+                            <article class="skill__details">
+                                <img src="js.png" alt
+                                    width="20px">
+                                <div>
+                                    <h4>Javascript</h4>
+                                    <small class="text-light">Beginner</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="html.png" alt
+                                    width="20px">
+                                <div>
+                                    <h4>HTML</h4>
+                                    <small class="text-light">Intermediate</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="css.png" alt
+                                    width="20px">
+                                <div>
+                                    <h4>CSS</h4>
+                                    <small class="text-light">Intermediate</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="boot.png" alt
+                                    width="20%" >
+                                <div>
+                                    <h4>Bootstrap</h4>
+                                    <small class="text-light">Intermediate</small>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <!-- for Programing skills -->
+
+                    <div class="skills backend">
+                        <h3>Programing Skills</h3>
+                        <div class="skill_content">
+
+                            <article class="skill__details">
+                                <img src="dsa.png"
+                                    alt width="20px"
+                                    style="object-fit:cover;border-radius:50%">
+                                <div>
+                                    <h4>DSA</h4>
+                                    <small class="text-light">Intermediate</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="sql.png" alt
+                                    width="20px">
+                                <div>
+                                    <h4>SQL</h4>
+                                    <small class="text-light">Practical</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="c++.png" alt
+                                    width="15%">
+                                <div>
+                                    <h4>C++</h4>
+                                    <small class="text-light">Advanced</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="python.png" alt
+                                    width="20px">
+                                <div>
+                                    <h4>Python</h4>
+                                    <small class="text-light">Intermediate</small>
+                                </div>
+                            </article>
+
+                            <article class="skill__details">
+                                <img src="image-processing.png" alt
+                                    width="30px" style="margin-left: 45px;">
+                                <div>
+                                    <h4>Image Processing</h4>
+                                    <small class="text-light">Basic</small>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- DAY 5 project page section-->
+            <section id="project_page">
+                <h1>PROJECTS</h1>
+
+                <!-- try to build using javascript only i.e dynamically  -->
+                <div class="project__container">
+                    <div class="project__wrapper">
+                        <div class="cover">
+                            <img
+                                src="objectmesurment.jpg"
+                                alt="cover_image">
+                        </div>
+                        <h3>Object Measurement Using opencv</h3>
+                        <div class="projects__para">
+                            <a target="_blank"
+                                href="https://github.com/vikas0873/-Measure-size-of-objects-in-an-image-using-OpenCV_Python"
+                                class="btn ">Github</a>
+                        </div>
+                    </div>
+
+                    <div class="project__wrapper">
+                        <div class="cover">
+                            <img src="tic_tac_toe.png"
+                                alt="cover_image">
+                        </div>
+                        <h3>Tic Tac Toe</h3>
+                        <div class="projects__para">
+                            <a target="_blank"
+                                href="https://vikas0873.github.io/TIC-TAC-TOE-game/"
+                                class="btn btn-primary">See
+                                live</a>
+                            <a target="_blank"
+                                href="https://github.com/vikas0873/TIC-TAC-TOE-game"
+                                class="btn ">Github</a>
+                        </div>
+                    </div>
+
+                    <div class="project__wrapper">
+                        <div class="cover">
+                            <img
+                                src="project.jpg"
+                                alt="cover_image">
+                        </div>
+                        <h3>IN FUTURE</h3>
+                        <div class="projects__para">
+                            <a target="_blank"
+                                href
+                                class="btn btn-primary">See
+                                live</a>
+                            <a target="_blank"
+                                href="https://github.com/vikas0873/"
+                                class="btn ">Github</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- DAY 6 contact page section -->
+
+            <section id="contact_page">
+                <h1 style="font-size: 17px; color:red">FOR MORE DETAILS</h1>
+                <h1>CONTACT</h1>
+
+                <div class="container contact__container">
+
+                    <!-- social contacts -->
+                    <div class="left__contacts">
+
+                        <article class="contact__details">
+                            <img src="gmail.png" alt width="25px">
+                            <h4>Gmail</h4>
+                            <small><a target="_blank">vikaschaudhari977@gmail.com</a></small>
+                        </article>
+
+                        <article class="contact__details">
+                            <img src="linkedin.png" alt width="25px">
+                            <h4>linkedin</h4>
+                            <small><a target="_blank"
+                                    href="https://www.linkedin.com/in/vikas-chaudhari-181449234/">let's
+                                    connect</a></small>
+                        </article>
+
+                        <article class="contact__details">
+                            <img src="github.png" alt width="25px">
+                            <h4>Github</h4>
+                            <small><a target="_blank"
+                                    href="https://github.com/vikas0873">repositories</a></small>
+                        </article>
+
+                    </div>
+
+                    <!-- day 7 -->
+                    <!-- contact form -->
+                    <div class="contact__form">
+                        <form id="myForm">
+                            <div class="contact-block name">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="myname"
+                                    placeholder="Enter name..." required>
+                            </div>
+
+                            <div class="contact-block email">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="myemail"
+                                    placeholder="Enter email..." required>
+                            </div>
+
+                            <div class="contact-block message">
+                                <label for="message">Send message</label>
+                                <textarea name="message" id="mymessage" rows="4"
+                                    placeholder="Write message here..."
+                                    required></textarea>
+                            </div>
+
+                            <div class="contact-block submission">
+                                <button type="reset">Reset</button>
+                                <button type="submit" class="primary">Send msg</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- DAY 8 -->
+            <footer id="footer_page">
+                <div class="footer__container">
+                    <div class="footer__bottom">
+                        <div class="left__footer">
+                            <img src="" alt
+                                width="20px">
+                            <small>&copy;copyright 2023 <b>Vikas</b></small>
+                        </div>
+
+                        <img src="thank-you.png" alt width="200px"
+                            height="120px">
+
+                        <div class="para__links">
+                            <a target="_blank"
+                                href="https://github.com/vikas0873"><img
+                                    src="github.png"
+                                    alt width="20px"></a>
+                            <a target="_blank"
+                                href="mailto:vikaschaudhari977@gmail.com.com?subject = Feedback&body = Message"><img
+                                    src="gmail.png" alt
+                                    width="20px"></a>
+                            <a target="_blank"
+                                href="https://www.linkedin.com/in/vikas-chaudhari-181449234/"><img
+                                    src="linkedin.png" alt width="20px"></a>
+                            <a target="_blank"
+                                href="https://leetcode.com/Vikas_-1/"><img
+                                    src="leetcode.png"
+                                    alt width="20px"></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- scripts -->
+        <script src="app.js"></script>
+    </body>
+
+</html>
